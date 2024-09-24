@@ -1,0 +1,32 @@
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    padding: 0;
+    color: #334155;
+    font-size: 2rem;
+}
+
+#hero{
+    text-align: center;
+}
+.type-on-it-cursor{
+    display: inline-block;
+    color: #334155;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.type-on-it-cursor.animate{
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
